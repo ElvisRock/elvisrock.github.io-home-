@@ -1004,7 +1004,7 @@ body > footer .copyrights {
   height: 12px;
   top: 20px;
   left: -29px;
-  border: 2px solid #2eca7f;
+  border: 2px solid #d7d8d7;
   z-index: 2;
 }
 
@@ -1012,7 +1012,7 @@ body > footer .copyrights {
   content: '';
   display: inline-block;
   position: absolute;
-  background-color: #2eca7f;
+  background-color: #f5f5f5;
   border-radius: 10px;
   width: 29px;
   height: 2px;
@@ -1032,7 +1032,7 @@ body > footer .copyrights {
   display: inline-block;
   font-size: 12px;
   line-height: 1.2em;
-  color: #2eca7f;
+  color: #f7f7f7;
   margin-bottom: 8px;
 }
 
@@ -1073,7 +1073,7 @@ body > footer .copyrights {
 }
 
 .skill-percentage {
-  background-color: #2eca7f;
+  background-color: #f5f5f5;
   height: 10px;
   padding: 0;
 }
@@ -1180,7 +1180,7 @@ body > footer .copyrights {
   font-size: 48px;
   line-height: 80px;
   color: #fff;
-  background-color: #2eca7f;
+  background-color: #f5f7f6;
   width: 80px;
   height: 80px;
   border-radius: 100px;
@@ -1255,7 +1255,7 @@ body > footer .copyrights {
   font-weight: 400;
   display: block;
   margin: 10px 0;
-  color: #2eca7f;
+  color: #fcfcfc;
 }
 /* /Fun Facts */
 
@@ -1303,7 +1303,7 @@ body > footer .copyrights {
   padding: 2.2em 1.2em 1.5em;
   font-style: italic;
   border: 1px solid #e0e0e0;
-  border-top: 2px solid #2eca7f;
+  border-top: 2px solid #f1f1f1;
   width: 100%;
   position: relative;
   margin: 0;
@@ -1387,7 +1387,7 @@ body > footer .copyrights {
   content: '';
   height: 2px;
   margin-top: 0;
-  background-color: #2eca7f;
+  background-color: #edeeed;
   position: absolute;
   left: 0;
   bottom: -3px;
@@ -1464,7 +1464,7 @@ body > footer .copyrights {
 
 .portfolio-filters li.active a,
 .portfolio-filters li.active a:hover {
-  background-color: #2eca7f;
+  background-color: #ffffff;
   color: #fff;
 }
 
@@ -1508,7 +1508,7 @@ body > footer .copyrights {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #2eca7f;
+  background-color: #ffffff;
   opacity: 0.8;
   z-index: 0;
 }
@@ -1634,7 +1634,7 @@ body > footer .copyrights {
 
 .blog-card .post-date span {
   display: block;
-  color: #2eca7f;
+  color: #fcfcfc;
   line-height: 1;
   font-size: 12px;
   margin: 0;
@@ -1775,7 +1775,7 @@ body > footer .copyrights {
 .contact-info-block i {
   position: relative;
   font-size: 18px;
-  color: #2eca7f;
+  color: #f4f5f4;
   text-align: center;
   line-height: 36px;
 }
@@ -1826,7 +1826,7 @@ body > footer .copyrights {
 .testimonials.owl-carousel .owl-nav .owl-prev:hover,
 .testimonials.owl-carousel .owl-nav .owl-next:hover {
   color: #fff;
-  background-color: #2eca7f;
+  background-color: #f2f3f3;
 }
 
 .testimonials.owl-carousel .owl-nav .owl-prev:before,
@@ -1997,7 +1997,7 @@ body > footer .copyrights {
 }
 
 .ajax-page-nav > div.nav-item a:hover {
-  color: #2eca7f;
+  color: #f9faf9;
 }
 
 .ajax-page-nav > div.nav-item a i {
@@ -2042,7 +2042,7 @@ body > footer .copyrights {
 }
 
 .project-general-info .fa {
-  color: #2eca7f;
+  color: #fcfcfc;
   margin-right: 5px;
 }
 
@@ -2069,7 +2069,7 @@ body > footer .copyrights {
 
 .share-buttons a:hover {
   color: #fff;
-  background-color: #2eca7f;
+  background-color: #fbfdfc;
   border-color: transparent;
 }
 
@@ -2155,7 +2155,7 @@ body > footer .copyrights {
 
 blockquote {
   margin: 20px 0;
-  border-left: 3px solid #2eca7f;
+  border-left: 3px solid #fdfffe;
   font-style: italic;
 }
 
@@ -2291,7 +2291,7 @@ blockquote footer, blockquote small, blockquote .small {
     top: 50px;
     z-index: 1001;
     overflow: auto;
-    background-color: #2eca7f;
+    background-color: #141414;
     -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
