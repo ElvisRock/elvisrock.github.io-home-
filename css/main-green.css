@@ -2282,7 +2282,7 @@ blockquote footer, blockquote small, blockquote .small {
   .border-block-top-110 {
     display: none;
   }
-
+/* Config das cores e tamanho da barra de menu */
   .header {
     width: 100%;
     max-width: 320px;
@@ -2291,6 +2291,7 @@ blockquote footer, blockquote small, blockquote .small {
     top: 50px;
     z-index: 1001;
     overflow: auto;
+    /* Cor de fundo do menu */
     background-color: #141414;
     -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
