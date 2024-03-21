@@ -72,12 +72,21 @@ body {
   background-repeat: no-repeat;
 }
 
+.figCaption {
+  color: #757575;
+  padding: 8px;
+  font-size: 12px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight:normal;
+  text-align: center;
+}
+
 body.ajax-page-visible {
   overflow: hidden;
 }
 
 a {
-  color: #ca2e2e;
+  color: #cfa717; /* /links */
   text-decoration: none;
   outline: none;
   -webkit-transition: all 0.3s ease-in-out;
@@ -185,7 +194,7 @@ textarea.form-control, textarea.form-control:focus {
   left: 50%;
   right: 50%;
   bottom: 0;
-  background: #ca792e;
+  background: #052b4d;
   height: 2px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -290,7 +299,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .form-group-with-icon.form-group-focus i {
-  color: #ca8c2e;
+  color: #052b4d;
 }
 /* /Form controls */
 
@@ -329,7 +338,7 @@ button, input[type="button"], input[type="submit"] {
 .btn-primary:hover,
 .btn-primary:focus,
 button, input[type="button"], input[type="submit"] {
-  background-color: #ca2e2e;
+  background-color: #052b4d;
   color: #fff;
   border: 0;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.3);
@@ -354,11 +363,11 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
 /* / buttons */
 
 .border-top {
-  border-top: 2px solid #ca672e;
+  border-top: 2px solid #052b4d;
 }
 
 .border-bottom {
-  border-bottom: 2px solid #ca8c2e;
+  border-bottom: 2px solid #052b4d;
 }
 
 /* Footer */
@@ -434,7 +443,7 @@ body > footer .copyrights {
 
 .preloader-spinner:after {
   border-color: transparent;
-  border-top-color: #ca522e;
+  border-top-color: #052b4d;
   -webkit-animation: rotation 0.82s infinite cubic-bezier(0.6,0.3,0.3,0.6);
   animation: rotation 0.82s infinite cubic-bezier(0.6,0.3,0.3,0.6);
 }
@@ -554,7 +563,7 @@ body > footer .copyrights {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #da475c;
+  background: #052c4d; /* /?? */
   color: #fff;
   text-align: center;
 }
@@ -640,7 +649,7 @@ body > footer .copyrights {
 }
 
 .site-title {
-  color: #49515d;
+  color: #052b4d; /* /Nome */
   font-size: 20px;
   font-weight: 500;
   font-family: 'Montserrat', Helvetica, sans-serif;
@@ -649,7 +658,7 @@ body > footer .copyrights {
 }
 
 .site-title span {
-  color: #ca402e;
+  color: #052b4d; /* /Sobrenome */
 }
 
 .header.sticked .site-title {
@@ -694,7 +703,7 @@ body > footer .copyrights {
   padding: 8px 0;
   margin: 0 20px;
   text-align: center;
-  color: #49515d;
+  color: #052b4d; /* /Menu */
   font-size: 15px;
   line-height: 1;
   font-weight: 400;
@@ -724,7 +733,7 @@ body > footer .copyrights {
   width: 0;
   height: 2px;
   margin: 0 auto;
-  background-color: #ca452e;
+  background-color: #cfa717; /* /linha abaixo do menu */
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -o-transition: all 0.15s ease-in-out;
@@ -788,7 +797,7 @@ body > footer .copyrights {
 }
 
 .block-title h3 span {
-  color: #082359;
+  color: #cfa717; /*about me*/
 }
 
 .custom-page-content .block {
@@ -809,7 +818,7 @@ body > footer .copyrights {
 }
 
 .custom-page-content .page-header.color-1 {
-  background-color: #082359;
+  background-color: #052b4d;  /* /Pagina Resume */
   background-image: url(../images/sp_main_bg.png);
   background-size: cover;
   -webkit-background-size: cover;
@@ -839,7 +848,7 @@ body > footer .copyrights {
 ======================================= */
 .start-page-content .page-header {
   position: relative;
-  background-color: #082359;
+  background-color: #052b4d; /* /pagina principal */
   padding: 50px;
   margin-bottom: 25px;
   background-image: url(../images/sp_main_bg.png);
@@ -982,7 +991,7 @@ body > footer .copyrights {
   margin-left: 20px;
   margin-bottom: 20px;
   background-color: #fff;
-  border-left: 2px solid #2eca7f;
+  border-left: 2px solid #052b4d;  /* /Linha resume */
   box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
 }
 
@@ -1004,7 +1013,7 @@ body > footer .copyrights {
   height: 12px;
   top: 20px;
   left: -29px;
-  border: 2px solid #d7d8d7;
+  border: 2px solid #052c4d;/* /bolinha resume */
   z-index: 2;
 }
 
@@ -1012,7 +1021,7 @@ body > footer .copyrights {
   content: '';
   display: inline-block;
   position: absolute;
-  background-color: #f5f5f5;
+  background-color: #052c4d; /* /linha resume */
   border-radius: 10px;
   width: 29px;
   height: 2px;
@@ -1032,7 +1041,7 @@ body > footer .copyrights {
   display: inline-block;
   font-size: 12px;
   line-height: 1.2em;
-  color: #f7f7f7;
+  color: #0a6791;
   margin-bottom: 8px;
 }
 
@@ -1073,7 +1082,7 @@ body > footer .copyrights {
 }
 
 .skill-percentage {
-  background-color: #f5f5f5;
+  background-color: #0d86bd;
   height: 10px;
   padding: 0;
 }
@@ -1180,7 +1189,7 @@ body > footer .copyrights {
   font-size: 48px;
   line-height: 80px;
   color: #fff;
-  background-color: #f5f7f6;
+  background-color: #052b4d;/* /?? */
   width: 80px;
   height: 80px;
   border-radius: 100px;
@@ -1255,7 +1264,7 @@ body > footer .copyrights {
   font-weight: 400;
   display: block;
   margin: 10px 0;
-  color: #fcfcfc;
+  color: #052b4d;
 }
 /* /Fun Facts */
 
@@ -1303,7 +1312,7 @@ body > footer .copyrights {
   padding: 2.2em 1.2em 1.5em;
   font-style: italic;
   border: 1px solid #e0e0e0;
-  border-top: 2px solid #f1f1f1;
+  border-top: 2px solid #052b4d;
   width: 100%;
   position: relative;
   margin: 0;
@@ -1387,7 +1396,7 @@ body > footer .copyrights {
   content: '';
   height: 2px;
   margin-top: 0;
-  background-color: #edeeed;
+  background-color: #052b4d; /* /??? */
   position: absolute;
   left: 0;
   bottom: -3px;
@@ -1428,12 +1437,14 @@ body > footer .copyrights {
 .portfolio-grid {
   margin-left: -0.5em;
   margin-right: -0.5em;
+  
 }
 
 .portfolio-grid figure {
   width: 33.33333%;
   float: left;
   padding: 3px;
+  
 }
 
 .portfolio-grid img {
@@ -1447,6 +1458,7 @@ body > footer .copyrights {
   padding: 0;
   margin: 0 0 2em;
   text-align: center;
+  color: #F4511E;
 }
 .portfolio-filters li {
   display: inline-block;
@@ -1464,7 +1476,7 @@ body > footer .copyrights {
 
 .portfolio-filters li.active a,
 .portfolio-filters li.active a:hover {
-  background-color: #ffffff;
+  background-color: #052b4d; 
   color: #fff;
 }
 
@@ -1477,12 +1489,14 @@ body > footer .copyrights {
 .portfolio-rid figure a img {
   display: block;
   position: relative;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-grid figure a {
   position: relative;
   display: block;
   overflow: hidden;
+  
 }
 
 .portfolio-grid figure a div {
@@ -1508,13 +1522,15 @@ body > footer .copyrights {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ffffff;
+  background-color: #052b4d;
   opacity: 0.8;
   z-index: 0;
+  
 }
 
 .portfolio-grid figure:nth-child(even) a div:before {
-  background-color: #9e51f3;
+  background-color: 052b4d;
+  
 }
 
 .portfolio-grid figure a:hover div {
@@ -1634,7 +1650,7 @@ body > footer .copyrights {
 
 .blog-card .post-date span {
   display: block;
-  color: #fcfcfc;
+  color: #052b4d;
   line-height: 1;
   font-size: 12px;
   margin: 0;
@@ -1775,7 +1791,7 @@ body > footer .copyrights {
 .contact-info-block i {
   position: relative;
   font-size: 18px;
-  color: #f4f5f4;
+  color: #052b4d;
   text-align: center;
   line-height: 36px;
 }
@@ -1826,7 +1842,7 @@ body > footer .copyrights {
 .testimonials.owl-carousel .owl-nav .owl-prev:hover,
 .testimonials.owl-carousel .owl-nav .owl-next:hover {
   color: #fff;
-  background-color: #f2f3f3;
+  background-color: #052b4d;
 }
 
 .testimonials.owl-carousel .owl-nav .owl-prev:before,
@@ -1997,7 +2013,7 @@ body > footer .copyrights {
 }
 
 .ajax-page-nav > div.nav-item a:hover {
-  color: #f9faf9;
+  color: #052b4d;
 }
 
 .ajax-page-nav > div.nav-item a i {
@@ -2042,7 +2058,7 @@ body > footer .copyrights {
 }
 
 .project-general-info .fa {
-  color: #fcfcfc;
+  color: #052b4d;
   margin-right: 5px;
 }
 
@@ -2069,7 +2085,7 @@ body > footer .copyrights {
 
 .share-buttons a:hover {
   color: #fff;
-  background-color: #fbfdfc;
+  background-color: #052b4d;
   border-color: transparent;
 }
 
@@ -2155,7 +2171,7 @@ body > footer .copyrights {
 
 blockquote {
   margin: 20px 0;
-  border-left: 3px solid #fdfffe;
+  border-left: 3px solid #052b4d;
   font-style: italic;
 }
 
@@ -2282,7 +2298,7 @@ blockquote footer, blockquote small, blockquote .small {
   .border-block-top-110 {
     display: none;
   }
-/* Config das cores e tamanho da barra de menu */
+
   .header {
     width: 100%;
     max-width: 320px;
@@ -2291,8 +2307,7 @@ blockquote footer, blockquote small, blockquote .small {
     top: 50px;
     z-index: 1001;
     overflow: auto;
-    /* Cor de fundo do menu */
-    background-color: #141414;
+    background-color: #052b4d;
     -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
@@ -2327,8 +2342,7 @@ blockquote footer, blockquote small, blockquote .small {
     left: 0;
     right: 0;
     height: 50px;
-    /* Cor de fundo do menu - pagina inicial versao mobile*/
-    background-color: #473784;
+    background-color: #052b4d;
     -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
     box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
